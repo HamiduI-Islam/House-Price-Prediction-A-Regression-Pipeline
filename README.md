@@ -1,22 +1,23 @@
-# House-Price-Prediction-A-Regression-Pipeline
+# 🏠 House Price Estimation and Regression Pipeline
+
 A rigorous, leakage-free machine learning pipeline built to predict residential real estate prices using physical and locational attributes. This project follows a strict 11-step data science workflow, comparing a baseline predictor against Linear Regression and Random Forest models.
 
 ---
 
-## 📁 Repository Structure
-```text
-housing-price-regression/
-│
-├── housing.csv              # Raw dataset (unmodified source file)
-├── Complete_Pipeline.ipynb           # Complete, executable Jupyter/Colab notebook
-├── requirements.txt         # Python package dependencies and environment versions
-└── README.md                # Project documentation and execution instructions
+## 📁 File Structure
+
+To satisfy the execution requirements, our project uses the following centralized file structure:
+
+*   `housing.csv`: The raw dataset (unmodified source file).
+*   `notebook.ipynb`: Our complete, executable Jupyter/Colab notebook.
+*   `requirements.txt`: A record of Python and package dependencies to recreate our environment.
+*   `README.md`: Project documentation and setup instructions.
 
 ---
 
 ## 🛠️ Environment Setup & Dependencies
 
-To ensure a reviewer can recreate our main tables, figures, and metrics, we have provided our package versions in the environment file[cite: 1]. 
+To ensure a reviewer can recreate our main tables, figures, and metrics, we have provided our package versions in the environment file. 
 
 **Setup Instructions:**
 1. Clone the repository to your local machine.
@@ -41,7 +42,7 @@ Our submitted code is designed to run from data loading to final results in a cl
 1. Open `notebook.ipynb` in Google Colab or your local Jupyter environment.
 2. Verify that the `housing.csv` dataset is in the correct folder path.
 3. Select **"Restart Kernel and Run All"**.
-4. The notebook must be run from a clean kernel[cite: 1]. It will sequentially execute our data audit, exploratory visualizations, leakage-safe preprocessing pipeline, and final model evaluations.
+4. The notebook must be run from a clean kernel. It will sequentially execute our data audit, exploratory visualizations, leakage-safe preprocessing pipeline, and final model evaluations.
 
 ---
 
