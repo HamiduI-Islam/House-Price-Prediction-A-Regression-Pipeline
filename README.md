@@ -47,7 +47,7 @@ Our submitted code is designed to run from data loading to final results in a cl
 ---
 ## 📈 Expected Output
 
-By running the complete notebook, the reviewer should expect the following automated outputs[cite: 2]:
+By running the complete notebook, the reviewer should expect the following automated outputs:
 1. **Exploratory Visualizations:** A distribution plot of house prices, a scatter plot showing the correlation between area and price, and a boxplot detailing the impact of air conditioning.
 2. **Model Metrics:** A final comparison table displaying MAE, RMSE, and R² scores for our Baseline, Linear Regression, and Random Forest models. 
 3. **Diagnostic Plots:** A side-by-side bar chart comparing model performance, an Actual vs. Predicted scatter plot, and a diagnostic residual plot for the best-performing model (Linear Regression) showing signs of heteroscedasticity.
